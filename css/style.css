@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: skyblue;
+    color: gray;
+    padding: 10px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+.input__group {
+    width: 100%;
+}
+
+.input__group input {
+    width: 100%;
+}
+
+body {
+    width: 100vw;
+    overflow-x: hidden;
+    background: whitesmoke;
+}
+
+
+
+.top__home_nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background: white;
+    z-index: 9890;
+}
+
+.top__home_nav a {
+    text-transform: capitalize;
+}
+
+.top__home_nav .links__section {
+    width: unset !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.top__home_nav .links__section ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 15px;
+}
+
+.top__home_nav .logo__sec {
+    width: 80px;
+    display: flex;
+    gap: 20px;
+}
+
+.top__home_nav .search__users {
+    display: flex;
+    width: 40%;
+    align-items: center;
+}
+
+.top__home_nav .user__section {
+    position: relative;
+}
+
+.top__home_nav .user__section #user__top_profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.top__home_nav .user__section img {
+    /* object-fit: cover; */
+    width: 100%;
+    height: 100%;
+}
+
+.user__section_links {
+    display: none;
+}
+
+
+
+
+.main__content {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.slots__wraper {
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.slot__link {
+    padding: 5px;
+    margin: 30px 0;
+}
+
+.slot__link a {
+    font-size: 14px;
+}
+
+.body__content {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+.tabs__bar  {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.26);
+    padding: 10px;
+}
+
+.tab__btn {
+    padding: 5px;
+    color: gray;
+}
+
+.tab__btn.active {
+    color: goldenrod;
+    border-bottom: 2px solid goldenrod;
+}
+
+.deliverd__burner {
+    width: 80px;
+}
+
+.datails__btn_sec {
+    padding: 20px;
+}
+
+.datails__btn_sec .tab__btn {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.comm__slot {
+    margin: 20px auto 0;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 5px;
+}
+
+.pale {
+    color: rgba(128, 128, 128, 0.719);
+}
+
+.search__users form {
+    width: 80%;
+}
+
+.input_sec {
+    width: 70%;
+}
+
+.input__group input {
+    padding: 5px;
+    /* width: 200px; */
+}
+
+.input__group button {
+    background: goldenrod;
+    outline: none;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-weight: 600;
+}
